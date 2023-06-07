@@ -8,3 +8,5 @@ CREATE TABLE animals(
     PRIMARY KEY(id)
     );
 
+-- Add new column 
+ALTER TABLE animals ADD COLUMN species TEXT;
